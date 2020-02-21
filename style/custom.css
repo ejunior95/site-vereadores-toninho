@@ -1,0 +1,614 @@
+  @media only screen and (min-width:320px) and (max-width:375px) {
+    /*.telascrollwhite {
+    background: rgba(0, 0, 0, 0.644);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+  }*/
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      box-sizing: content-box;
+      transition: .5s;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 0, 0, 0.644);
+      overflow: visible;
+      z-index: 1;
+    }
+
+    nav .logo_vereador {
+      float: left;
+      background-color: transparent;
+      margin-left: 0;
+    }
+
+    nav .logo_vereador:hover {
+      transform: scale(1.1);
+      transition: .5s;
+    }
+
+    nav .logo_vereador img {
+      width: 25vh;
+      height: 10vh;
+      padding-left: 3vh;
+      padding-top: 3vh;
+      transition: .5s;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    nav .navReduzida {
+      width: 40px;
+      height: 40px;
+      margin-right: 40px;
+      /* background-color: #363E72; */
+      /* border-radius: 50%; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav .navReduzida img {
+      height: 50%;
+    }
+
+    nav ul {
+      float: right;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: transparent;
+    }
+
+    nav ul li {
+      list-style: none;
+      background-color: transparent;
+    }
+
+    nav ul li a {
+      line-height: 8vh;
+      color: gray;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 5px 20px;
+      border-radius: 6px;
+      transition: .5s;
+      background-color: transparent;
+      display: none;
+      /*tirar isso*/
+    }
+
+    nav ul li a.active {
+      color: #F2BD36;
+      background-color: #363E72;
+    }
+
+    nav ul li a:hover {
+      color: #F2BD36;
+      background-color: #363E72;
+    }
+
+    .menu_navReduzida {
+      background-color: green;
+      display: none;
+    }
+
+
+    /* .menu_navReduzida {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      transition: .5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.829);
+      overflow: visible;
+      z-index: 2;
+    } */
+    /* 
+    .menu_navReduzida h2 {
+      color: white;
+      height: 100vh;
+    }
+
+    .menu_navReduzida h2 a {
+      color: white;
+      text-decoration: none;
+    } */
+
+    section.secsite {
+      width: 100%;
+    }
+
+    section .titulosec {
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding-left: 0;
+      padding-top: 0;
+      margin-top: 2vh;
+      margin-left: 1vh;
+    }
+
+    section .subtitulosec {
+      margin-left: 1vh;
+    }
+
+    section .titulosecoff {
+      font-size: 8em;
+      font-weight: normal;
+      opacity: 8%;
+      z-index: 0;
+    }
+
+    .bgHeader {
+      height: 70vh;
+      background-image: url("../img//banner1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bgHeader img.fotovereador {
+      margin-top: 37%;
+      width: 70%;
+      height: 70%;
+    }
+
+    .bgHeader img.logopartidoimg {
+      height: 100%;
+    }
+
+    .bgHeader_Biografia {
+      height: 70vh;
+      background-image: url("../img//banner2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .bgHeader_Biografia img {
+      height: 100%;
+    }
+
+    .textHeader {
+      position: absolute;
+      top: 105px;
+      right: 20px;
+      text-align: right;
+    }
+
+    .textHeaderh1 {
+      color: white;
+      font-size: 0.7rem;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .textHeaderh2 {
+      color: white;
+      font-size: 2rem;
+      font-weight: bolder;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .textHeaderh3 {
+      color: white;
+      font-size: 0.5rem;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .textHeaderh4 {
+      color: white;
+      font-size: 0.6rem;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .logopartido {
+      position: absolute;
+      top: 390px;
+      right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .ImgHeaderh6 {
+      width: 40px;
+      height: 45px;
+      max-width: 80px;
+      max-height: 90px;
+      padding: 1vh 1vh 1vh 2vh;
+      border-radius: 5px;
+      background-color: #c5c5c5;
+    }
+
+    .textHeaderh1_Biografia {
+      color: white;
+      position: absolute;
+      top: 120px;
+      right: 5px;
+      font-size: 3rem;
+      font-weight: bolder;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+
+    .textHeaderh2_Biografia {
+
+      color: white;
+      font-size: 1rem;
+      position: absolute;
+      top: 185px;
+      right: 5px;
+      text-align: right;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    /*CSS do TimeLine BIOGRAFIA*/
+
+    .timeline {
+      position: relative;
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+    }
+
+    .timeline:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: 2px;
+      height: 100%;
+      background-color: #c5c5c5;
+
+    }
+
+    .timeline ul {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .timeline ul li {
+      list-style: none;
+      position: relative;
+      width: 50%;
+      padding: 20px 40px;
+      box-sizing: border-box;
+
+    }
+
+    .timeline ul li:nth-child(odd) {
+      float: left;
+      text-align: right;
+      clear: both;
+    }
+
+    .timeline ul li:nth-child(even) {
+      float: right;
+      text-align: left;
+      clear: both;
+    }
+
+    .content {
+      padding-bottom: 20px;
+    }
+
+    .timeline ul li:nth-child(odd):before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      right: -6px;
+      width: 10px;
+      height: 10px;
+      background: #363E72;
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    }
+
+    .timeline ul li:nth-child(even):before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: -3.8px;
+      width: 10px;
+      height: 10px;
+      background: #363E72;
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    }
+
+    .timeline ul li h3 {
+      margin: 0;
+      padding: 0;
+      color: #363E72;
+    }
+
+    .timeline ul li p {
+      margin: 10px 0 0;
+      padding: 0;
+    }
+
+    .timeline ul li .time h4 {
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+
+    }
+
+    .timeline ul li:nth-child(odd) .time {
+      position: absolute;
+      top: 12px;
+      right: -165px;
+      margin: 0;
+      padding: 5px 30px;
+      background: #363E72;
+      color: #F2BD36;
+      border-radius: 6px;
+      box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    }
+
+    .timeline ul li:nth-child(even) .time {
+      position: absolute;
+      top: 12px;
+      left: -165px;
+      margin: 0;
+      padding: 5px 30px;
+      background: #363E72;
+      color: #F2BD36;
+      border-radius: 6px;
+      box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    }
+
+
+    /*CSS do TimeLine BIOGRAFIA*/
+
+    .centralizar_btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3vh;
+      margin-bottom: 5vh;
+    }
+
+    button {
+      color: #F2BD36;
+      background-color: #363E72;
+      cursor: pointer;
+      border: solid;
+      border-width: 2px;
+      border-radius: 5px;
+      border-color: #F2BD36;
+      transition: .3s;
+    }
+
+    button:hover {
+      background-color: white;
+      color: #F2BD36;
+      border-color: #F2BD36;
+    }
+
+
+    .btn_confirmarmensagem {
+      padding: 2vh;
+      font-size: 15px;
+      font-weight: bold;
+      width: 50vh;
+    }
+
+    .btn_saibamais {
+      padding: 2vh;
+      font-size: 1em;
+      font-weight: bolder;
+      width: 50vh;
+      margin-top: 10%;
+
+    }
+
+
+    .container_contato {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .l1contatoform,
+    .l2contatoform {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+    .redessociais {
+      margin: 5vh;
+      transition: .5s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .redessociais .ladologos {
+      margin: 5px;
+    }
+
+    .redessociais .ladologos_l1,
+    .redessociais .ladologos_l2 {
+
+      display: flex;
+      transition: .5s;
+      flex-wrap: wrap;
+
+    }
+
+    .redessociais .ladologos_l1 .logobx,
+    .redessociais .ladologos_l2 .logobx {
+      margin: 5px;
+      padding: 30px;
+      width: 180px;
+      height: 100px;
+      border-radius: 4px;
+      transition: .5s;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .redessociais .ladologos_l1 .logobx:hover,
+    .redessociais .ladologos_l2 .logobx:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .redessociais .ladologos_l1 .logobx img,
+    .redessociais .ladologos_l2 .logobx img {
+      width: 180px;
+      height: 180px;
+      /* filter: grayscale(1);
+      opacity: 1;*/
+      transform: scale(1);
+      transition: .8s;
+    }
+
+    .redessociais .ladologos_l1 .logobx.active img,
+    .redessociais .ladologos_l2 .logobx.aciive img {
+      filter: grayscale(0);
+      transform: scale(1.2);
+      transition: .8s;
+    }
+
+    .redessociais .ladologos_l1 .logobx img:hover,
+    .redessociais .ladologos_l2 .logobx img:hover {
+      width: 180px;
+      height: 180px;
+      filter: grayscale(0);
+      transform: scale(1.2);
+      transition: .8s;
+    }
+
+    .ladodescricao {
+
+      /* position: relative;
+      width: 50%;
+      padding: 5vh; 
+      overflow: hidden;
+      */
+      display: none;
+    }
+
+    .ladodescricao .descricaoFace,
+    .ladodescricao .descricaoWhats,
+    .ladodescricao .descricaoInsta,
+    .ladodescricao .descricaoYout {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transition: .8s;
+      transform: scale(0);
+    }
+
+    .ladodescricao .descricaoFace.active,
+    .ladodescricao .descricaoWhats.active,
+    .ladodescricao .descricaoInsta.active,
+    .ladodescricao .descricaoYout.active {
+      transition: .8s;
+      transform: scale(1);
+    }
+
+    .hr_Titulo {
+      margin-left: 10%;
+      width: 20vh;
+      height: 1vh;
+      background-color: #2C82C9;
+      border: none;
+    }
+
+    .container_form {
+      margin-top: 5vh;
+      margin-left: 6vh;
+      margin-right: 6vh;
+      padding: 5vh;
+      border-radius: 5px;
+      transition: .5s;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    }
+
+    .textbox {
+      font-size: larger;
+      font-family: "Poppins", sans-serif;
+      padding-left: 1vh;
+    }
+
+    .labels {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 99%;
+    }
+
+    .textboxes {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 99%;
+    }
+
+    .textbox_assunto {
+      margin: 0px;
+      width: 99%;
+      font-size: larger;
+      font-family: "Poppins", sans-serif;
+      padding-left: 1vh;
+    }
+
+    .textbox_mensagem {
+      margin: 0px;
+      width: 99%;
+      font-size: larger;
+      font-family: "Poppins", sans-serif;
+      padding-left: 1vh;
+    }
+
+    footer {
+      background-color: black;
+      padding: 2vh 0vh 20vh 0vh;
+      margin-top: 5vh;
+      box-shadow: 5px 5px 5px 5px rgba(0.377, 0, 0, 0);
+    }
+
+    footer p {
+      background-color: black;
+      color: white;
+      font-size: 0.5rem;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    footer a {
+      background-color: black;
+      color: green;
+      font-size: 0.5rem;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+
+  @media only screen and (min-width:320px) and (max-width:375px) {}
+
+  @media only screen and (min-width:800px) and (max-width:1024px) {}
+
+  @media only screen and (min-width:1024px) and (max-width:1440px) {}

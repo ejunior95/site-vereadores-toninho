@@ -5,9 +5,3 @@ $(window).on('scroll', function () {
     $('nav').removeClass('telascrollwhite');
   }
 });
-
-
-function xeskedele() {
-  var navzona = document.querySelector('.navzona');
-
-}

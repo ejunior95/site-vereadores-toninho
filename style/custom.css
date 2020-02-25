@@ -156,7 +156,8 @@
     }
 
     .bgHeader img.fotovereador {
-      margin-top: 37%;
+      position: relative;
+      margin-top: 30%;
       width: 70%;
       height: 70%;
     }
@@ -1070,10 +1071,11 @@
       box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
     }
 
-
     /*CSS do TimeLine BIOGRAFIA*/
 
-    .container_cardnoticias {
+    /*CSS das Propostas*/
+
+    .container_cardpropostas {
       margin: 0;
       padding-left: 10vh;
       box-sizing: border-box;
@@ -1086,7 +1088,7 @@
       margin: 20px;
     }
 
-    .container_cardnoticias .cardnoticias {
+    .container_cardpropostas .cardpropostas {
       position: relative;
       height: 250px;
       background-color: #fff;
@@ -1095,7 +1097,7 @@
       margin: 30px 0;
     }
 
-    .container_cardnoticias .cardnoticias .imgBx {
+    .container_cardpropostas .cardpropostas .imgBx {
       position: absolute;
       top: 0;
       left: 0;
@@ -1111,7 +1113,7 @@
 
     }
 
-    .container_cardnoticias .cardnoticias:hover .imgBx {
+    .container_cardpropostas .cardpropostas:hover .imgBx {
       width: 150px;
       height: 150px;
       left: -100px;
@@ -1120,7 +1122,7 @@
       background-color: #F2BD36;
     }
 
-    .container_cardnoticias .cardnoticias .imgBx:before {
+    .container_cardpropostas .cardpropostas .imgBx:before {
 
       content: attr(data-text);
       position: absolute;
@@ -1129,21 +1131,22 @@
       width: 100%;
       text-align: center;
       font-size: 6em;
-      color: rgba(255, 255, 255, 0.5);
+      color: rgba(255, 255, 255, 0.123);
       font-weight: 700;
     }
 
 
-    .container_cardnoticias .cardnoticias .imgBx img {
+    .container_cardpropostas .cardpropostas .imgBx img {
       max-width: 100px;
+      filter: invert(1);
       transition: .5s ease-in-out;
     }
 
-    .container_cardnoticias .cardnoticias:hover .imgBx img {
+    .container_cardpropostas .cardpropostas:hover .imgBx img {
       max-width: 75px;
     }
 
-    .container_cardnoticias .cardnoticias .content_cardnoticias {
+    .container_cardpropostas .cardpropostas .content_cardpropostas {
       position: absolute;
       right: 0;
       width: calc(100% - 75px);
@@ -1153,15 +1156,22 @@
       flex-wrap: wrap;
     }
 
-    .container_cardnoticias .cardnoticias .content_cardnoticias h3 {
-      margin-bottom: 5px;
+    .container_cardpropostas .cardpropostas .content_cardpropostas h3 {
+      margin-bottom: 2px;
       font-size: 24px;
 
     }
 
-    .container_cardnoticias .cardnoticias .content_cardnoticias p {
+    .container_cardpropostas .cardpropostas .content_cardpropostas p {
       box-sizing: border-box;
+      font-size: 90%;
     }
+
+    .container_cardpropostas .cardpropostas .content_cardpropostas a {
+      text-decoration: none;
+    }
+
+    /*CSS das Propostas*/
 
     .centralizar_btn {
       display: flex;
@@ -1564,6 +1574,43 @@
       height: 100%;
     }
 
+    .logomousescroll_molde {
+      width: 20px;
+      height: 20px;
+      top: 90%;
+      left: 50%;
+      right: 50%;
+    }
+
+    .logomousescroll_molde img {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      right: 50%;
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      filter: invert(1);
+    }
+
+    .logomousescroll_scroll {
+      width: 20px;
+      height: 20px;
+      top: 90%;
+      left: 50%;
+      right: 50%;
+    }
+
+    .logomousescroll_scroll img {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      right: 50%;
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
     .bgHeader_Biografia {
       height: 100vh;
       background-image: url("../img//banner2.png");
@@ -1871,13 +1918,14 @@
       width: 100%;
       text-align: center;
       font-size: 6em;
-      color: rgba(255, 255, 255, 0.5);
+      color: rgba(255, 255, 255, 0.123);
       font-weight: 700;
     }
 
 
     .container_cardpropostas .cardpropostas .imgBx img {
       max-width: 100px;
+      filter: invert(1);
       transition: .5s ease-in-out;
     }
 

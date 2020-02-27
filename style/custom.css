@@ -1570,10 +1570,6 @@
       height: 100%;
     }
 
-    .bgHeader img.logopartidoimg {
-      height: 100%;
-    }
-
     .logomousescroll_molde {
       width: 20px;
       height: 20px;
@@ -1694,7 +1690,47 @@
       background-color: #c5c5c5;
     }
 
-    .textHeader_Biografia {}
+    .bgHeader .btn_playstore1 {
+      position: absolute;
+      top: 81%;
+      right: 15px;
+      object-fit: contain;
+      height: 100px;
+      width: 500px;
+    }
+
+
+    .bgHeader .btn_playstore1 img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    .btn_playstore2 {
+      position: absolute;
+      object-fit: contain;
+      height: 100px;
+      width: 500px;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .btn_playstore2 img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    .textHeaderh5 {
+      color: white;
+      font-size: 1rem;
+      margin-left: 0;
+      padding-left: 0;
+      line-height: 0.1;
+      text-align: center;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
 
     .textHeaderh1_Biografia {
       color: white;
@@ -1864,15 +1900,14 @@
 
     .container_cardpropostas {
       margin: 0;
-      padding-left: 10vh;
+      padding-left: 5vh;
       box-sizing: border-box;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
       min-height: 100vh;
       position: relative;
-      width: 1000px;
-      margin: 20px;
+      width: 100%;
     }
 
     .container_cardpropostas .cardpropostas {
@@ -1880,8 +1915,8 @@
       height: 250px;
       background-color: #fff;
       display: flex;
-      width: 45%;
-      margin: 30px 0;
+      width: 40%;
+      margin: 5vh;
     }
 
     .container_cardpropostas .cardpropostas .imgBx {
@@ -2048,6 +2083,94 @@
     .box_cardsprojetos:hover .content_cardsprojetos p {
       opacity: 1;
       transition-delay: .2s;
+    }
+
+    .container_mockupcel {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 100vh;
+    }
+
+    .mobile {
+      position: relative;
+      width: 250px;
+      height: 440px;
+      background-color: #020c17;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+
+    }
+
+    .mobile .top {
+      position: absolute;
+      top: -50px;
+      width: 100%;
+      height: 50px;
+      background-color: #efefef;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    }
+
+    .mobile .top::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 4px;
+      background-color: #ccc;
+      border: 2px solid #aaa;
+      border-radius: 50%;
+      box-shadow: 0 0 0 1px #999;
+    }
+
+    .mobile .top::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 40px;
+      height: 3px;
+      background-color: #333;
+      border: 2px solid #aaa;
+      border-radius: 3px;
+    }
+
+    .mobile .bottom {
+      position: absolute;
+      bottom: -50px;
+      width: 100%;
+      height: 50px;
+      background-color: #efefef;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    }
+
+    .mobile .bottom::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 15px;
+      height: 15px;
+      border: 2px solid #999;
+      cursor: pointer;
+      border-radius: 6px;
+
+    }
+
+    .mobile .screen img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .centralizar_btn {

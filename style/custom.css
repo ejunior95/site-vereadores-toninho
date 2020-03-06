@@ -1997,7 +1997,7 @@
       left: 0;
       width: 100%;
       text-align: center;
-      font-size: 6em;
+      font-size: 5em;
       color: rgba(255, 255, 255, 0.123);
       font-weight: 700;
     }
@@ -2239,7 +2239,7 @@
       justify-content: center;
       align-items: center;
       margin-top: 3vh;
-      margin-bottom: 3vh;
+      margin-bottom: 5vh;
     }
 
     button {

@@ -1408,7 +1408,7 @@
     }
   }
 
-  @media only screen and (min-width:1025px) and (max-width:1440px) {
+  @media only screen and (min-width:1025px) {
     .telascrollwhite {
       background: rgba(0, 0, 0, 0.808);
       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
@@ -1570,43 +1570,6 @@
       height: 100%;
     }
 
-    .logomousescroll_molde {
-      width: 20px;
-      height: 20px;
-      top: 90%;
-      left: 50%;
-      right: 50%;
-    }
-
-    .logomousescroll_molde img {
-      position: absolute;
-      top: 90%;
-      left: 50%;
-      right: 50%;
-      width: 40px;
-      height: 40px;
-      object-fit: contain;
-      filter: invert(1);
-    }
-
-    .logomousescroll_scroll {
-      width: 20px;
-      height: 20px;
-      top: 90%;
-      left: 50%;
-      right: 50%;
-    }
-
-    .logomousescroll_scroll img {
-      position: absolute;
-      top: 90%;
-      left: 50%;
-      right: 50%;
-      width: 40px;
-      height: 40px;
-      object-fit: contain;
-    }
-
     .bgHeader_Biografia {
       height: 100vh;
       background-image: url("../img//banner2.png");
@@ -1628,6 +1591,18 @@
 
 
     .bgHeader_Projeto img {
+      height: 100%;
+    }
+
+    .bgHeader_Noticias {
+      height: 100vh;
+      background-image: url("../img//banner3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .bgHeader_Noticias img {
       height: 100%;
     }
 
@@ -1692,11 +1667,11 @@
 
     .bgHeader .btn_playstore1 {
       position: absolute;
-      top: 81%;
-      right: 15px;
+      top: 80%;
+      right: 5%;
       object-fit: contain;
-      height: 100px;
-      width: 500px;
+      height: 80px;
+      width: 300px;
     }
 
 
@@ -1706,20 +1681,14 @@
       cursor: pointer;
     }
 
-    .btn_playstore2 {
+    .logomousescroll {
       position: absolute;
-      object-fit: contain;
-      height: 100px;
-      width: 500px;
+      top: 290%;
+      right: 75%;
+      width: 40px;
+      height: 40px;
       margin: 0;
       padding: 0;
-    }
-
-
-    .btn_playstore2 img {
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
     }
 
     .textHeaderh5 {
@@ -1727,8 +1696,7 @@
       font-size: 1rem;
       margin-left: 0;
       padding-left: 0;
-      line-height: 0.1;
-      text-align: center;
+      line-height: 1;
       text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
     }
 
@@ -1767,6 +1735,27 @@
     }
 
     .textHeaderh2_Projeto {
+
+      color: white;
+      font-size: 1rem;
+      position: absolute;
+      top: 360px;
+      right: 7px;
+      text-align: right;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .textHeaderh1_Noticias {
+      color: white;
+      position: absolute;
+      top: 200px;
+      right: 5px;
+      font-size: 7rem;
+      font-weight: bolder;
+      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .textHeaderh2_Noticias {
 
       color: white;
       font-size: 1rem;
@@ -1895,6 +1884,62 @@
     }
 
     /*CSS do TimeLine BIOGRAFIA*/
+
+    .container_cardsnoticias_main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .container_cardsnoticias_main .container_cardsnoticias {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      max-width: 550px;
+      margin: 3vh;
+      padding: 1vh;
+    }
+
+    .container_cardsnoticias_main .container_cardsnoticias .imgBx_cardnoticias {
+      width: 200px;
+      height: 200px;
+      border-radius: 5px;
+    }
+
+    .container_cardsnoticias_main .container_cardsnoticias .imgBx_cardnoticias img {
+     width: 200px;
+     height: 200px;
+    }
+
+    .container_cardsnoticias_main .container_cardnoticias .content_cardnoticias {
+      padding: 1vh;
+    }
+
+    .content_cardnoticias p {
+      font-size: 90%;
+    }
+
+    .titulo_noticia {
+      color: #F2BD36;
+    }
+
+
+    .data_noticia {
+      color: #F2BD36;
+    }
+
+    .btn_saibamais_noticias {
+      padding: 2vh;
+      width: 300px;
+      margin: 1vh;
+      font-weight: bolder;
+    }
+
 
     /*CSS das Propostas*/
 
@@ -2173,12 +2218,28 @@
       object-fit: cover;
     }
 
+    .btn_playstore2 {
+      position: absolute;
+      object-fit: contain;
+      height: 80px;
+      width: 400px;
+      margin-left: -60px;
+      padding: 0;
+    }
+
+
+    .btn_playstore2 img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+
     .centralizar_btn {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-top: 3vh;
-      margin-bottom: 10vh;
+      margin-bottom: 3vh;
     }
 
     button {
@@ -2405,4 +2466,5 @@
       font-weight: 500;
       text-decoration: none;
     }
+
   }

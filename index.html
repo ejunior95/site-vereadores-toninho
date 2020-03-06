@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style/animate.css">
     <link rel="stylesheet" href="style/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
-
 
     <nav class="animated fadeInDown">
         <div class="logo_vereador">
@@ -32,9 +32,11 @@
             <li><a href="#sec8">APP Eleitoral</a></li>
             <li><a href="#sec9">Fale comigo</a></li>
         </ul>
+
         <div class="navReduzida">
             <img src="/img/logo_menu.svg" alt="">
         </div>
+
         <div class="menu_navReduzida">
             <h2><a href="#">Inicio</a></h2>
             <h2><a href="#sec1">Biografia</a></h2>
@@ -57,6 +59,11 @@
             <p class="textHeaderh2 animated fadeIn delay-2s">TONINHO DE JESUS</p>
             <p class="textHeaderh3 animated fadeIn delay-3s">Suplente</p>
             <p class="textHeaderh4 animated fadeIn delay-4s">José Ciclano Beltrano</p>
+            <a href="#sec1">
+                <lottie-player class="logomousescroll" src="/img/Mousezao.json" background="transparent" speed="1" loop
+                    autoplay title="Role o scroll para baixo">
+                </lottie-player>
+            </a>
         </div>
 
         <div class="logopartido">
@@ -70,16 +77,6 @@
             <a href="https://play.google.com/store/apps/details?id=greenone.camara.aluminio" target="blank"><img
                     src="img/logo_playstorecinza.svg" alt="" class="logoPlayStore" title="Clique para baixar agora"></a>
         </div>
-
-        <a href="#sec1">
-            <div class="logomousescroll_molde" title="Role o scroll do mouse">
-                <img src="img/mousescroll_molde.svg" alt="">
-            </div>
-
-            <div class="logomousescroll_scroll" title="Role o scroll do mouse">
-                <img src="img/mousescroll_scroll.svg" alt="">
-            </div>
-        </a>
 
     </div>
 
@@ -147,6 +144,47 @@
         <p class="subtitulosec">
             Fique por dentro de todas as novidades sobre a campanha e o cotidiano.
         </p>
+
+        <div class="container_cardsnoticias_main">
+
+            <div class="container_cardsnoticias">
+                <div class="imgBx_cardnoticias">
+                      <img src="img/noticia1.jpg" alt="">
+                    
+                </div>
+
+                <div class="content_cardnoticias">
+                    <p class="data_noticia">Quarta-feira</p>
+                    <p class="data_noticia">05 de Fevereiro de 2020</p>
+                    <h3 class="titulo_noticia">Entrega do KIT Escolar 2020</h3>
+                    <p>Alunos do ensino fundamental da rede municipal de ensino de Santo André iniciaram o ano letivo
+                        recebendo seus kits de uniforme e material escolar.</p>
+                </div>
+            </div>
+
+            <div class="container_cardsnoticias">
+                <div class="imgBx_cardnoticias">
+                    <img src="img/noticia2.jpg" alt="">
+                </div>
+
+                <div class="content_cardnoticias">
+                    <p class="data_noticia">Segunda-feira</p>
+                    <p class="data_noticia">10 de Fevereiro de 2020</p>
+                    <h3 class="titulo_noticia">Escrituras de Centreville</h3>
+                    <p>Moradores do Centreville começaram a concretizar um sonho de quase quatro décadas. A Prefeitura
+                        de Santo André, por meio da Secretaria de Habitação e Regularização Fundiária, entregou as
+                        primeiras 55 matrículas de imóveis do bairro, chegando à fase conclusiva do processo de
+                        regularização fundiária mais complexo já realizado na cidade.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="centralizar_btn">
+            <a href="/noticias.html">
+                <button class="btn_saibamais">Saiba mais</button>
+            </a>
+        </div>
 
     </section>
     <section id="sec3" class="secsite">
@@ -292,15 +330,11 @@
                 </div>
             </div>
             <div class="mobile">
-                <div class="top">
-
-                </div>
-                <div class="bottom">
-
-                </div>
+                <div class="top"></div>
                 <div class="screen">
                     <img src="/img/app2.png" alt="">
                 </div>
+                <div class="bottom"></div>
             </div>
         </div>
     </section>

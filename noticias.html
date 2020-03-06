@@ -1,48 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-  <title>Site de Vereadores</title>
+  <title>Toninho de Jesus - Página Inicial</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/global.css">
+  <link rel="stylesheet" href="style/custom.css">
   <link rel="stylesheet" href="style/animate.css">
   <link rel="stylesheet" href="style/font-awesome.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 </head>
 
 <body>
-  <nav>
+
+  <nav class="animated fadeInDown">
     <div class="logo_vereador">
-      <img src="img/logo.png" alt="Logo do vereador" title="Logo do vereador ou do partido">
+      <a href="index.html"><img src="img/logo.png" alt="Logo do vereador" title="O seu amigo de sempre!"></a>
     </div>
+
     <ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="biografia.html">Biografia</a></li>
-      <li><a href="noticias.html" class="active">Notícias</a></li>
-      <li><a href="agenda.html">Agenda</a></li>
-      <li><a href="fotos.html">Fotos</a></li>
-      <li><a href="videos.html">Videos</a></li>
+      <li><a href="#" class="active">Notícias</a></li>
+      <li><a href="index.html">Agenda</a></li>
+      <li><a href="index.html">Fotos</a></li>
+      <li><a href="index.html">Videos</a></li>
       <li><a href="projetos.html">Projetos</a></li>
-      <li><a href="propostas.html">Propostas</a></li>
-      <li><a href="falecomigo.html">Fale comigo</a></li>
+      <li><a href="index.html">Propostas</a></li>
+      <li><a href="index.html">APP Eleitoral</a></li>
+      <li><a href="index.html">Fale comigo</a></li>
     </ul>
-  </nav>
-  <section class="banner3"></section>
 
-  <div class="conteudo_site">
-    <h2 class="titulo">Notícias</h2>
-    <p class="subtitulo">Aqui será onde iremos postar todas as novidades!</p>
-    <br>
-    <p class="paragrafo">
-      is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-      containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-      including versions of Lorem Ipsum.
-    </p>
+    <div class="navReduzida">
+      <img src="/img/logo_menu.svg" alt="">
+    </div>
+
+    <div class="menu_navReduzida">
+      <h2><a href="#">Inicio</a></h2>
+      <h2><a href="#sec1">Biografia</a></h2>
+      <h2><a href="#sec2">Notícias</a></h2>
+      <h2><a href="#sec3">Agenda</a></h2>
+      <h2><a href="#sec4">Fotos</a></h2>
+      <h2><a href="#sec5">Videos</a></h2>
+      <h2><a href="#sec6">Projetos</a></h2>
+      <h2><a href="#sec7">Propostas</a></h2>
+      <h2><a href="#sec8">APP Eleitoral</a></h2>
+      <h2><a href="#sec9">Fale comigo</a></h2>
+    </div>
+  </nav>
+
+  <div class="bgHeader_Noticias">
+    <div class="textHeader_Noticias">
+      <p class="textHeaderh1_Noticias animated fadeIn delay-1s">Notícias</p>
+      <p class="textHeaderh2_Noticias animated fadeIn delay-2s">Fique por dentro de todas as novidades.</p>
+    </div>
   </div>
+
+  <section id="sec1" class="secsite" style="background-color: #ECECEC;">
+    <h2 class="titulosec">Ultimas notícias</h2>
+    <p class="subtitulosec">
+      Fique por dentro de todas as novidades sobre a campanha e o cotidiano.
+    </p>
+
+    <div class="container_cardsnoticias_main">
+
+      <div class="container_cardsnoticias">
+        <div class="imgBx_cardnoticias">
+          <img src="img/noticia1.jpg" alt="">
+
+        </div>
+
+        <div class="content_cardnoticias">
+          <p class="data_noticia">Quarta-feira</p>
+          <p class="data_noticia">05 de Fevereiro de 2020</p>
+          <h3 class="titulo_noticia">Entrega do KIT Escolar 2020</h3>
+          <p>Alunos do ensino fundamental da rede municipal de ensino de Santo André iniciaram o ano letivo
+            recebendo seus kits de uniforme e material escolar.</p>
+        </div>
+      </div>
+
+      <div class="container_cardsnoticias">
+        <div class="imgBx_cardnoticias">
+          <img src="img/noticia2.jpg" alt="">
+        </div>
+
+        <div class="content_cardnoticias">
+          <p class="data_noticia">Segunda-feira</p>
+          <p class="data_noticia">10 de Fevereiro de 2020</p>
+          <h3 class="titulo_noticia">Escrituras de Centreville</h3>
+          <p>Moradores do Centreville começaram a concretizar um sonho de quase quatro décadas. A Prefeitura
+            de Santo André, por meio da Secretaria de Habitação e Regularização Fundiária, entregou as
+            primeiras 55 matrículas de imóveis do bairro, chegando à fase conclusiva do processo de
+            regularização fundiária mais complexo já realizado na cidade.</p>
+        </div>
+      </div>
+
+
+
+      <div class="container_cardsnoticias">
+        <div class="imgBx_cardnoticias">
+          <img src="img/noticia3.jpg" alt="">
+        </div>
+
+        <div class="content_cardnoticias">
+          <p class="data_noticia">Terça-feira</p>
+          <p class="data_noticia">11 de Fevereiro de 2020</p>
+          <h3 class="titulo_noticia">Inauguração Creche Guaratinguetá II</h3>
+          <p>Vereador Toninho de Jesus participa da Inauguração da Creche Guaratinguetá II, no Jardim Alzira Franco -
+            Rua Guaratinguetá, 701.</p>
+        </div>
+      </div>
+
+      <div class="container_cardsnoticias">
+        <div class="imgBx_cardnoticias">
+          <img src="img/noticia4.jpg" alt="">
+        </div>
+
+        <div class="content_cardnoticias">
+          <p class="data_noticia">Sexta-feira</p>
+          <p class="data_noticia">14 de Fevereiro de 2020</p>
+          <h3 class="titulo_noticia">Obra da quadra dos Eucaliptos</h3>
+          <p>Vistoria na obra da quadra dos Eucaliptos</p>
+        </div>
+      </div>
+
+      <div class="container_cardsnoticias">
+        <div class="imgBx_cardnoticias">
+          <img src="img/noticia5.jpg" alt="">
+        </div>
+
+        <div class="content_cardnoticias">
+          <p class="data_noticia">Sábado</p>
+          <p class="data_noticia">01 de Fevereiro de 2020</p>
+          <h3 class="titulo_noticia">Programa Água Legal</h3>
+          <p>Lançamento do Programa Água Legal: água potável direto da torneira, na Comunidade Bougival</p>
+        </div>
+      </div>
+
+      <div class="container_cardsnoticias">
+        <div class="imgBx_cardnoticias">
+          <img src="img/noticia6.jpg" alt="">
+        </div>
+
+        <div class="content_cardnoticias">
+          <p class="data_noticia">Quarta-feira</p>
+          <p class="data_noticia">29 de Janeiro de 2020</p>
+          <h3 class="titulo_noticia">Vistoria da piscina olímpica</h3>
+          <p>Vistoria na piscina olímpica do Complexo Esportivo Pedro Dell’Antonia, com a
+            ilustre presença do nadador e medalhista olímpico, Ricardo Prado, e o excelentíssimo prefeito Paulo Serra
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
   <footer>
     <p class="Copyright">
@@ -50,8 +163,8 @@
       <script>
         document.write(new Date().getFullYear());
       </script>
-      - Todos os direitos reservados | Esse site foi feito com <i class="fa fa-heart-o" aria-hidden="true"></i>
-      por <a href="http://greenonetec.com.br/" target="_blank" title="Site oficial da GreenOne">GreenOne
+      - Todos os direitos reservados | Esse site foi feito com <i class="fa    fa-heart-o" aria-hidden="true"></i>
+      por <br><a href="http://greenonetec.com.br/" target="_blank" title="Site oficial da GreenOne">GreenOne
         Softwares
         e Aplicativos</a>
     </p>

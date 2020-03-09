@@ -130,7 +130,14 @@
 
     section.secsite {
       width: 100%;
+      transition: .5s;
     }
+
+    /* section.secsite#sec4.active {
+      filter: blur(10px);
+      pointer-events: none;
+      user-select: none;
+    } */
 
     section .titulosec {
       font-size: 3rem;
@@ -547,8 +554,8 @@
     }
 
      .container_GaleriaFotos .box .details_imgBx img {
-      height: 30px;
-      width: 30px; 
+      height: 60px;
+      width: 60px; 
       filter: invert(1);
       z-index: 5;
      }
@@ -770,22 +777,21 @@
 
     /*CSS das Propostas*/
 
-    .secsite_projetosl1,
-    .secsite_projetosl2,
-    .secsite_projetosl3 {
+    .secsite_projetosl1 {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
       /* min-height: 50vh; */
-      
+      /* margin-left: 2vh; */
     }
 
     .container_cardsprojetos {
-      width: 1000px;
+      /* width: 1000px; */
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin: 5vh;
     }
 
     .box_cardsprojetos {
@@ -1004,7 +1010,7 @@
       font-weight: bolder;
       width: 50vh;
       margin-top: 10%;
-
+      margin-bottom: 3vh;
     }
 
 

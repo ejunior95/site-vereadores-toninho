@@ -61,7 +61,7 @@
             <p class="textHeaderh4 animated fadeIn delay-4s">José Ciclano Beltrano</p>
             <a href="#sec1">
                 <lottie-player class="logomousescroll" src="/img/Mousezao.json" background="transparent" speed="1" loop
-                    autoplay title="Role o scroll para baixo">
+                    autoplay title="Role o scroll para baixo" id="sec1">
                 </lottie-player>
             </a>
         </div>
@@ -80,7 +80,7 @@
 
     </div>
 
-    <section id="sec1" class="secsite">
+    <section class="secsite">
         <h2 class="titulosec">Conheça a trajetória completa de<br>Toninho de Jesus...</h2>
 
         <!-- Inicio da TimeLine BIOGRAFIA-->
@@ -132,14 +132,14 @@
         </div>
 
         <!-- Fim da TimeLine BIOGRAFIA-->
-        <div class="centralizar_btn">
+        <div class="centralizar_btn" id="sec2">
             <a href="/biografia.html">
                 <button class="btn_saibamais">Saiba mais</button>
             </a>
         </div>
 
     </section>
-    <section id="sec2" class="secsite" style="background-color: #ECECEC;">
+    <section class="secsite" style="background-color: #ECECEC;">
         <h2 class="titulosec">Ultimas notícias</h2>
         <p class="subtitulosec">
             Fique por dentro de todas as novidades sobre a campanha e o cotidiano.
@@ -177,21 +177,104 @@
                         regularização fundiária mais complexo já realizado na cidade.</p>
                 </div>
             </div>
-<div class="centralizar_btn">
+<div class="centralizar_btn" id="sec3">
     <a href="/noticias.html">
         <button class="btn_saibamais">Saiba mais</button>
     </a>
 </div>
         </div>
 
-        
-
     </section>
-    <section id="sec3" class="secsite">
+    <section class="secsite">
         <h2 class="titulosec">Agenda</h2>
         <p class="subtitulosec">
-            Veja todos os videos da campanha e do dia-a-dia
+            Acompanhe a agenda de eventos e do dia-a-dia do vereador
         </p>
+
+        <div class="container_cardsAgenda_main">
+
+            <div class="card_Agenda">
+                <div class="itens_Agenda">
+                    <div>
+                        <div class="item">
+                            <img src="/img/calendar-alt.svg" alt="">
+                            <h5> 13/02/2020</h5>
+                        </div>
+                        <br>
+                        <div class="item">
+                            <img src="/img/clock.svg" alt="">
+                            <h5> 14:00 | 20:59</h5>
+                        </div>
+                        <br>
+                        <div class="item">
+                            <img src="/img/phone-alt.svg" alt="">
+                            <h5> (15) 98169-5472</h5>
+                        </div>
+                        <br>
+                        <div class="item">
+                            <img src="/img/map-marker-alt.svg" alt="">
+                            <h5> Rua Paes de Oliveira, 178 - Sorocaba, SP</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="descricao_Agenda">
+                    <h2 class="tituloAgenda">Titulo da agenda 01</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Maiores adipisci, dignissimos culpa
+                        soluta est numquam voluptatem repellendus nesciunillo
+                        ab architecto maxime unde saepe hic laudantium neque,
+                        doloribus labore fugit.
+                    </p>
+                </div>
+            </div>
+            
+                
+            
+            <div class="card_Agenda">
+                <div class="itens_Agenda">
+                    <div>
+                        <div class="item">
+                            <img src="/img/calendar-alt.svg" alt="">
+                            <h5> 13/02/2020</h5>
+                        </div>
+                        <br>
+                        <div class="item">
+                            <img src="/img/clock.svg" alt="">
+                            <h5> 14:00 | 20:59</h5>
+                        </div>
+                        <br>
+                        <div class="item">
+                            <img src="/img/phone-alt.svg" alt="">
+                            <h5> (15) 98169-5472</h5>
+                        </div>
+                        <br>
+                        <div class="item">
+                            <img src="/img/map-marker-alt.svg" alt="">
+                            <h5> Rua Paes de Oliveira, 178 - Sorocaba, SP</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="descricao_Agenda">
+                    <h2 class="tituloAgenda">Titulo da agenda 02</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Maiores adipisci, dignissimos culpa
+                            soluta est numquam voluptatem repellendus nesciunillo
+                            ab architecto maxime unde saepe hic laudantium neque,
+                            doloribus labore fugit.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="centralizar_btn" id="sec4">
+            <a href="/agenda.html">
+            <button class="btn_saibamais">Saiba mais</button>
+            </a>
+        </div>
+
     </section>
     <section id="sec4" class="secsite" style="background-color: #ECECEC;">
         <h2 class="titulosec">Fotos</h2>
@@ -199,102 +282,102 @@
             Veja nossa galeria de fotos da campanha e do dia-a-dia
         </p>
 
-        <div class="container_GaleriaFotos">
+        <div id="instafeed" class="container_GaleriaFotos">
             
             <div class="box a">
-            <a href="/img/Galeria Fotos/Foto1.jpg" target="_blank">
+              
                 <div class="imgBx">
                 <img src="/img/Galeria Fotos/Foto1.jpg" alt="Foto 1">
             </div>
         <div class="details_imgBx">
         <img src="/img/eye.svg" alt="Visualizar">
             </div>
-            </a>
+       
         </div>
 
             <div class="box b">
-                <a href="/img/Galeria Fotos/Foto2.jpg" target="_blank">
+
                 <div class="imgBx">   
                     <img src="/img/Galeria Fotos/Foto2.jpg" alt="Foto 2">
                 </div>
                 <div class="details_imgBx">
                     <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+           
             </div>
 
             <div class="box c">
-                <a href="/img/Galeria Fotos/Foto3.jpg" target="_blank">
+               
                 <div class="imgBx">
                     <img src="/img/Galeria Fotos/Foto3.jpg" alt="Foto 3">
                 </div>
                 <div class="details_imgBx">
                 <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+             
             </div>
 
             
             <div class="box d">
-                <a href="/img/Galeria Fotos/Foto4.jpg" target="_blank">
+            
                 <div class="imgBx">
                     <img src="/img/Galeria Fotos/Foto4.jpg" alt="Foto 4">
                 </div>
                 <div class="details_imgBx">
                 <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+     
             </div>
 
             <div class="box e">
-                <a href="/img/Galeria Fotos/Foto5.jpg" target="_blank">
+          
                 <div class="imgBx">
                     <img src="/img/Galeria Fotos/Foto5.jpg" alt="Foto 5">
                 </div>
                 <div class="details_imgBx">
                 <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+    
             </div>
 
             
             <div class="box f">
-                <a href="/img/Galeria Fotos/Foto6.jpg" target="_blank">
+       
                 <div class="imgBx">
                     <img src="/img/Galeria Fotos/Foto6.jpg" alt="Foto 6">
                 </div>
                 <div class="details_imgBx">
                     <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+
             </div>
 
           
             <div class="box g">
-                <a href="/img/Galeria Fotos/Foto7.jpg" target="_blank">
+              
                 <div class="imgBx">
                     <img src="/img/Galeria Fotos/Foto7.jpg" alt="Foto 7">
                 </div>
                 <div class="details_imgBx">
                     <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+     
             </div>
 
            
             <div class="box h">
-                <a href="/img/Galeria Fotos/Foto8.jpg" target="_blank">
+         
                 <div class="imgBx">  
                     <img src="/img/Galeria Fotos/Foto8.jpg" alt="Foto 8">
                 </div>
                 <div class="details_imgBx">
                     <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+  
             </div>
 
             <div class="box i">
-                <a href="/img/Galeria Fotos/Foto9.jpg" target="_blank">
+    
                 <div class="imgBx">  
                     <img src="/img/Galeria Fotos/Foto9.jpg" alt="Foto 9">
                 </div>
@@ -302,18 +385,18 @@
                     <img src="/img/eye.svg" alt="Visualizar">
                     
                 </div>
-                </a>
+      
             </div>
 
             <div class="box j">
-                <a href="/img/Galeria Fotos/Foto10.jpg" target="_blank">
+  
                 <div class="imgBx">
                     <img src="/img/Galeria Fotos/Foto10.jpg" alt="Foto 10">
                 </div>
                 <div class="details_imgBx">
                     <img src="/img/eye.svg" alt="Visualizar">
                 </div>
-                </a>
+   
             </div>
         </div>
 
@@ -330,7 +413,7 @@
         <div class="container_GaleriaVideos">
         
             <div class="box a">
-                
+            
             </div>
         
             <div class="box b">
@@ -340,7 +423,6 @@
             <div class="box c">
                 
             </div>
-        
         
             <div class="box d">
                 
@@ -390,9 +472,12 @@
                     </div>
                     <div class="content_cardsprojetos">
                         <h3>Linha chilena proibida</h3>
-                        <p>Lei 10.020 de 29 de novembro de 2017 - Dispõe sobre a proibição do uso de "linha chilena" ou
+                        <p>Lei 10.020 - Dispõe sobre a proibição do uso de "linha chilena" ou
                             com qualquer substância cortante nas linhas de empinar papagaios, pipas e similares no
                             Município de Santo André e dá outras providências.</p>
+                        <br>
+                        <br>
+                        <h3>Quarta-feira, 29 de Novembro de 2017</h3>
                     </div>
                 </div>
             </div>
@@ -404,8 +489,11 @@
                     </div>
                     <div class="content_cardsprojetos">
                         <h3>Cadeira de rodas</h3>
-                        <p>Lei 9.905 de 15 de dezembro de 2016 - Obriga a existência de cadeiras de rodas em edifícios
+                        <p>Lei 9.905 - Obriga a existência de cadeiras de rodas em edifícios
                             comerciais, hotéis e repartições públicas em que haja atendimento à população.</p>
+                        <br>
+                        <br>
+                        <h3>Quinta-feira, 15 de Dezembro de 2016</h3>
                     </div>
                 </div>
             </div>
@@ -420,6 +508,9 @@
                         <p>Lei 9.734 de 14 de setembro de 2015 - Ficam as farmácias e drogarias, localizadas no
                             Município Santo André, obrigadas a receber as sobras de medicamentos domésticos não
                             utilizados ou com prazo de validade vencido para o correto descarte.</p>
+                        <br>
+                        <br>
+                        <h3>Segunda-feira, 14 de Setembro de 2015</h3>
                     </div>
                 </div>
             </div>
@@ -447,7 +538,7 @@
                 <div class="content_cardpropostas">
                     <h3>Cidadania</h3>
                     <p>Projeto de Lei CM nº 105/2019 “Dispõe sobre o direito de preferência na matrícula e na transferência da matrícula dos
-                    filhos de mulheres vítimas de violência nas creches municipais da cidade de Santo André”.<a href="#">Saiba mais...</a></p>
+                    filhos de mulheres vítimas de violência nas creches municipais da cidade de Santo André”.<a href="#"> Saiba mais...</a></p>
                 </div>
             </div>
             <div class="cardpropostas">
@@ -457,7 +548,7 @@
                 <div class="content_cardpropostas">
                     <h3>Ambiente</h3>
                     <p>Projeto de Lei CM nº 127/ 2019 que "Dispõe sobre a proibição de fornecimento de produtos de plástico de uso único nos
-                    locais que especifica”.<a href="#">Saiba mais...</a></p>
+                    locais que especifica”.<a href="#"> Saiba mais...</a></p>
                 </div>
             </div>
             <div class="cardpropostas">
@@ -468,7 +559,7 @@
                     <h3>Ambiente</h3>
                     <p>Projeto de Lei CM nº 130/2019 que "Dispõe sobre a proibição do consumo de cigarros, cigarrilhas, charutos, cachimbos,
                     narguilés ou de qualquer outro produto fumígeno, derivado ou não do tabaco, em parques públicos municipais da cidade de
-                    Santo André, e dá outras providências”.<a href="#">Saiba mais...</a></p>
+                    Santo André, e dá outras providências”.<a href="#"> Saiba mais...</a></p>
                 </div>
             </div>
             <div class="cardpropostas">
@@ -478,7 +569,7 @@
                 <div class="content_cardpropostas">
                     <h3>Infra</h3>
                     <p>Projeto de Lei CM nº 165 / 2019 que “Dispõe sobre o enquadramento de uma Área em ZEIS C localizada na Rua Vereador José
-                    Nanci, nº 231 - Parque Jaçatuba”.<a href="#">Saiba mais...</a> </p>
+                    Nanci, nº 231 - Parque Jaçatuba”.<a href="#"> Saiba mais...</a> </p>
                 </div>
             </div>
         </div>
@@ -636,6 +727,7 @@
     <script type="text/javascript" src="js/javascript.js"></script>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script src="js/logicadanav.js"></script>
+    <script src="js/instafeed.min.js"></script>
 </body>
 
 </html>

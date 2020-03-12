@@ -166,56 +166,6 @@
       height: 100%;
     }
 
-    .bgHeader_Biografia {
-      height: 100vh;
-      background-image: url("../img//banner2.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-
-    .bgHeader_Biografia img {
-      height: 100%;
-    }
-
-    .bgHeader_Projeto {
-      height: 100vh;
-      background-image: url("../img//banner7.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-
-    .bgHeader_Projeto img {
-      height: 100%;
-    }
-
-  .bgHeader_Proposta {
-  height: 100vh;
-  background-image: url("../img//banner8.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-
-
-  .bgHeader_Proposta img {
-  height: 100%;
-  }
-
-
-
-    .bgHeader_Noticias {
-      height: 100vh;
-      background-image: url("../img//banner3.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-
-    .bgHeader_Noticias img {
-      height: 100%;
-    }
-
     .textHeader {
       position: absolute;
       top: 180px;
@@ -307,91 +257,6 @@
       margin-left: 0;
       padding-left: 0;
       line-height: 1;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh1_Biografia {
-      color: white;
-      position: absolute;
-      top: 200px;
-      right: 5px;
-      font-size: 7rem;
-      font-weight: bolder;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-
-    .textHeaderh2_Biografia {
-
-      color: white;
-      font-size: 1rem;
-      position: absolute;
-      top: 360px;
-      right: 7px;
-      text-align: right;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh1_Projeto {
-      color: white;
-      position: absolute;
-      top: 200px;
-      right: 5px;
-      font-size: 7rem;
-      font-weight: bolder;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh2_Projeto {
-
-      color: white;
-      font-size: 1rem;
-      position: absolute;
-      top: 360px;
-      right: 7px;
-      text-align: right;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh1_Proposta {
-      color: white;
-      position: absolute;
-      top: 200px;
-      right: 5px;
-      font-size: 7rem;
-      font-weight: bolder;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh2_Proposta {
-
-      color: white;
-      font-size: 1rem;
-      position: absolute;
-      top: 360px;
-      right: 7px;
-      text-align: right;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh1_Noticias {
-      color: white;
-      position: absolute;
-      top: 200px;
-      right: 5px;
-      font-size: 7rem;
-      font-weight: bolder;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .textHeaderh2_Noticias {
-
-      color: white;
-      font-size: 1rem;
-      position: absolute;
-      top: 360px;
-      right: 7px;
-      text-align: right;
       text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
     }
 
@@ -513,6 +378,66 @@
     }
 
     /*CSS do TimeLine BIOGRAFIA*/
+
+    .container_cardsAgenda_main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* width: 100%;
+      height: 100%; */
+    }
+
+    .container_cardsAgenda_main .card_Agenda {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #363E72;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
+      width: 560px;
+      height: 255px;
+      margin: 3vh;
+    }
+
+    .container_cardsAgenda_main .tituloAgenda{
+      margin-bottom: 3vh;
+      color: #F2BD36;
+    }
+
+    .container_cardsAgenda_main .card_Agenda .itens_Agenda {
+      display: flex;
+      align-items: center;
+      border-style: solid;
+      border-width: 5px;
+      border-color: #F2BD36;
+      border-radius: 8px 0px 0px 8px;
+      background-color:#FFCE52;
+      margin-right: 5px;
+      width: 200%;
+      height: 255px;
+      box-sizing: border-box;
+    }
+
+    .container_cardsAgenda_main .card_Agenda .descricao_Agenda {
+      text-align: justify;
+      color: #F2BD36;
+    }
+
+    .container_cardsAgenda_main .card_Agenda .descricao_Agenda p {
+      padding: 1vh;
+    }
+
+    .container_cardsAgenda_main .card_Agenda .itens_Agenda .item {
+      display: flex;
+      align-items: center;
+    }
+
+    .container_cardsAgenda_main .card_Agenda .itens_Agenda .item img {
+      width: 15px;
+      height: 15px;
+      margin: 3px;
+    }
+
 
     .container_GaleriaFotos {
         width: 100%;
@@ -824,7 +749,9 @@
 
     /*CSS das Propostas*/
 
-    .secsite_projetosl1 {
+    .secsite_projetosl1,
+    .secsite_projetosl2,
+    .secsite_projetosl3 {
       display: flex;
       justify-content: center;
       align-items: center;

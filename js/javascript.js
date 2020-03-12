@@ -60,3 +60,25 @@ function AddActiveYout() {
 // function RemoveActiveYout() {
 // ativarYout.classList.remove('active');
 // }
+
+// INSTAFEED
+
+$( document ).ready(function(){
+
+var userFeed = new Instafeed({
+  get: 'user',
+  userId: '4592529144',
+  limit: 10,
+  resolution: 'standard_resolution',
+  accessToken: '',
+  sortBy: 'most-recent',
+  template: '<div class="container_GaleriaFotos"><a href="{{image}}" title="{{caption}}" target="_blank"><div class="box"><img src="{{image}}" alt="{{caption}}"/></div></a></div>',
+});
+userFeed.run();
+
+
+});
+
+
+
+// INSTAFEED

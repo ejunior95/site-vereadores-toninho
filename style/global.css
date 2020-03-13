@@ -12,3 +12,7 @@ html {
   font-family: "Poppins", sans-serif;
   transition: .5s;
 }
+
+body {
+  background-color: #ECECEC;
+}

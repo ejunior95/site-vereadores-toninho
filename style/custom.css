@@ -242,12 +242,9 @@
     }
 
     .logomousescroll {
-      position: absolute;
-      top: 290%;
-      right: 75%;
       width: 40px;
       height: 40px;
-      margin: 0;
+      margin: 5vh;
       padding: 0;
     }
 
@@ -394,15 +391,18 @@
       background-color: #363E72;
       border-radius: 8px;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
-      width: 560px;
+      width: 570px;
       height: 255px;
       margin: 3vh;
     }
 
     .container_cardsAgenda_main .tituloAgenda{
       margin-bottom: 3vh;
+      padding: 1vh;
       color:#363E72;
       background-color: #F2BD36;
+      border-radius: 5px 0px 0px 5px;
+      
     }
 
     .container_cardsAgenda_main .card_Agenda .itens_Agenda {
@@ -413,19 +413,15 @@
       border-color: #F2BD36;
       border-radius: 8px 0px 0px 8px;
       background-color:#FFCE52;
-      margin-right: 5px;
       width: 200%;
       height: 255px;
       box-sizing: border-box;
     }
 
-    .container_cardsAgenda_main .card_Agenda .descricao_Agenda {
+    .container_cardsAgenda_main .card_Agenda .descricao_Agenda p {
       text-align: justify;
       color: #F2BD36;
-    }
-
-    .container_cardsAgenda_main .card_Agenda .descricao_Agenda p {
-      padding: 1vh;
+      padding: 5px;
     }
 
     .container_cardsAgenda_main .card_Agenda .itens_Agenda .item {
@@ -548,59 +544,20 @@
       }
     }
 
-    .container_GaleriaVideos {
-      width: 100%;
-      display: grid;
-      grid-auto-flow: dense;
-      grid-template: "1fr 1fr 1fr 1fr 1fr"33.33vh "1fr 1fr 1fr 1fr 1fr"33.33vh "1fr 1fr 1fr 1fr 1fr"33.33vh;
-      grid-gap: 2px;
+    .container_GaleriaVideos{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .container_GaleriaVideos .box {
-      position: relative;
-      background-color: #ccc;
-      box-sizing: border-box;
-      display: inline-block;
-      cursor: pointer;
-      transition: .3s;
-    }
-
-    .container_GaleriaVideos .box.a {
-      grid-row: span 2;
-    }
-
-    .container_GaleriaVideos .box.b,
-    .container_GaleriaVideos .box.f,
-    .container_GaleriaVideos .box.h,
-    .container_GaleriaVideos .box.j {
-      grid-column: span 2;
-    }
-
-    @media (max-width: 991px) {
-
-      .container_GaleriaVideos {
-        grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px;
-      }
-
-    }
-
-    @media (max-width: 768px) {
-
-      .container_GaleriaVideos {
-        grid-template: "1fr 1fr"200px "1fr 1fr"200px "1fr 1fr"200px "1fr 1fr"200px "1fr 1fr"200px "1fr 1fr"200px "1fr 1fr"200px;
-      }
-
-      .container_GaleriaVideos .box.h {
-        grid-column: span 1;
-      }
+     margin: 2vh;
     }
 
     .container_cardsnoticias_main {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      width: 100%;
-      height: 100%;
     }
 
     .container_cardsnoticias_main .container_cardsnoticias {
@@ -714,7 +671,7 @@
 
 
     .container_cardpropostas .cardpropostas .imgBx img {
-      max-width: 100px;
+      max-width: 150px;
       filter: invert(1);
       transition: .5s ease-in-out;
     }
@@ -727,8 +684,8 @@
       position: absolute;
       right: 0;
       width: calc(100% - 75px);
-      height: 100%;
-      padding: 20px;
+      /* height: 100%;
+      padding: 20px; */
       display: flex;
       flex-wrap: wrap;
     }
@@ -754,6 +711,7 @@
     .secsite_projetosl2,
     .secsite_projetosl3 {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       width: 100%;
@@ -766,7 +724,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin: 5vh;
+      margin: 2vh;
     }
 
     .box_cardsprojetos {

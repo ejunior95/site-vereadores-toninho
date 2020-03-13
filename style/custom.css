@@ -401,7 +401,8 @@
 
     .container_cardsAgenda_main .tituloAgenda{
       margin-bottom: 3vh;
-      color: #F2BD36;
+      color:#363E72;
+      background-color: #F2BD36;
     }
 
     .container_cardsAgenda_main .card_Agenda .itens_Agenda {

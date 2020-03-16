@@ -44,8 +44,8 @@ nav .navReduzida {
   /* background-color: #363E72; */
   /* border-radius: 50%; */
   /* display: flex;
-      justify-content: center;
-      align-items: center; */
+    justify-content: center;
+    align-items: center; */
   width: 1px;
   height: 1px;
   margin-right: 0px;
@@ -125,7 +125,6 @@ nav ul li a:hover {
 
     .menu_navReduzida h2 a {
       color: white;
-      text-decoration: none;
     } */
 
 section.secsite {
@@ -666,6 +665,12 @@ section .subtitulosec {
   font-weight: 700;
 }
 
+.container_cardpropostas .cardpropostas .imgBx:after {
+
+  content: attr(data-text);
+
+}
+
 
 .container_cardpropostas .cardpropostas .imgBx img {
   max-width: 150px;
@@ -675,6 +680,7 @@ section .subtitulosec {
 
 .container_cardpropostas .cardpropostas:hover .imgBx img {
   max-width: 75px;
+  
 }
 
 .container_cardpropostas .cardpropostas .content_cardpropostas {

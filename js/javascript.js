@@ -2,6 +2,8 @@ var ativarFace = document.querySelector('.descricaoFace');
 var ativarInsta = document.querySelector('.descricaoInsta');
 var ativarYout = document.querySelector('.descricaoYout');
 var ativarWhats = document.querySelector('.descricaoWhats');
+var verificador_navbarToggle = false
+var navbarToggle = document.querySelector('.menu_navReduzida');
 
 // SECT FACE
 
@@ -79,6 +81,21 @@ userFeed.run();
 
 });
 
-
-
 // INSTAFEED
+
+// TOGGLE DA NAVBAR
+
+function abrirNavBar(){
+  if (verificador_navbarToggle === false){
+    navbarToggle.classList.add('active');
+    verificador_navbarToggle = true;
+  }
+  else{
+    navbarToggle.classList.remove('active');
+    verificador_navbarToggle = false;
+  }
+  
+}
+
+
+// TOGGLE DA NAVBAR

@@ -623,101 +623,101 @@
   }
 
 
-  /*CSS das Propostas*/
+    /*CSS das Propostas*/
 
-  .container_cardpropostas {
-    margin: 0;
-    /* padding-left: 5vh; */
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    position: relative;
-    width: 100%;
-  }
+    .container_cardpropostas {
+      margin: 0;
+      /* padding-left: 5vh; */
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 100vh;
+      position: relative;
+      width: 100%;
+    }
 
-  .container_cardpropostas .cardpropostas {
-    position: relative;
-    height: 250px;
-    background-color: #fff;
-    display: flex;
-    width: 40%;
-    margin: 5vh;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
-  }
+    .container_cardpropostas .cardpropostas {
+      position: relative;
+      height: 300px;
+      background-color: #fff;
+      display: flex;
+      width: 90%;
+      margin-bottom: 5vh;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
+    }
 
-  .container_cardpropostas .cardpropostas .imgBx {
-    position: absolute;
-    top: calc(50% - 80px);
-    width: 150px;
-    height: 150px;
-    left: -80px;
-    background-color: #718093;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: .5s ease-in-out;
-    border-radius: 8px;
-  }
+    .container_cardpropostas .cardpropostas .imgBx {
+      position: absolute;
+      top: calc(50% - 100px);
+      width: 75px;
+      height: 75px;
+      left: -15px;
+      background-color: #718093;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: .5s ease-in-out;
+      border-radius: 8px;
+    }
 
-  .container_cardpropostas .cardpropostas .imgBx:after {
-    display: none;
-    content: attr('');
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    /* font-size: 2em; */
-    color: rgba(255, 255, 255, 0.699);
-    /* font-weight: 700; */
-  }
+    .container_cardpropostas .cardpropostas .imgBx:after {
+      display: none;
+      content: attr('');
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      /* font-size: 2em; */
+      color: rgba(255, 255, 255, 0.699);
+      /* font-weight: 700; */
+    }
 
-  .container_cardpropostas .cardpropostas .imgBx:after {
+    .container_cardpropostas .cardpropostas .imgBx:after {
 
-    content: attr(data-text);
+      content: attr(data-text);
 
-  }
-
-
-  .container_cardpropostas .cardpropostas .imgBx img {
-    max-width: 75px;
-    filter: invert(1);
-    transition: .5s ease-in-out;
-  }
+    }
 
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas {
-    position: absolute;
-    right: 0;
-    width: calc(100% - 75px);
-    /* height: 100%;
+    .container_cardpropostas .cardpropostas .imgBx img {
+      max-width: 45px;
+      filter: invert(1);
+      transition: .5s ease-in-out;
+    }
+
+
+    .container_cardpropostas .cardpropostas .content_cardpropostas {
+      position: absolute;
+      right: 0;
+      width: calc(100% - 75px);
+      /* height: 100%;
       padding: 20px; */
-    /* display: flex;
+      /* display: flex;
       flex-wrap: wrap; */
-  }
+    }
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas h3 {
-    margin-bottom: 2px;
-    font-size: 24px;
+    .container_cardpropostas .cardpropostas .content_cardpropostas h3 {
+      margin-bottom: 1px;
+      font-size: 20px;
 
-  }
+    }
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas p {
-    font-size: 80%;
-    box-sizing: border-box;
-  }
+    .container_cardpropostas .cardpropostas .content_cardpropostas p {
+      font-size: 70%;
+      box-sizing: border-box;
+    }
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas a {
-    text-decoration: none;
-  }
+    .container_cardpropostas .cardpropostas .content_cardpropostas a {
+      text-decoration: none;
+    }
 
-  /*CSS das Propostas*/
+    /*CSS das Propostas*/
 
   .secsite_projetosl1,
   .secsite_projetosl2,
@@ -827,7 +827,6 @@
     height: 440px;
     background-color: #020c17;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
-
   }
 
   .mobile .top {
@@ -1004,9 +1003,9 @@
     justify-content: center;
     align-items: center;
   }
-
+/* 
   .redessociais .ladologos {
-  }
+  } */
 
   .redessociais .ladologos_l1,
   .redessociais .ladologos_l2 {
@@ -1879,8 +1878,8 @@
     height: 250px;
     background-color: #fff;
     display: flex;
-    width: 40%;
-    margin: 5vh;
+    width: 80%;
+    margin-bottom: 5vh;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
   }
@@ -2061,7 +2060,7 @@
     height: 440px;
     background-color: #020c17;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
-
+    display: none;
   }
 
   .mobile .top {
@@ -2073,6 +2072,7 @@
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    display: none;
   }
 
   .mobile .top::before {
@@ -2087,6 +2087,7 @@
     border: 2px solid #aaa;
     border-radius: 50%;
     box-shadow: 0 0 0 1px #999;
+    display: none;
   }
 
   .mobile .top::after {
@@ -2100,6 +2101,7 @@
     background-color: #333;
     border: 2px solid #aaa;
     border-radius: 3px;
+    display: none;
   }
 
   .mobile .bottom {
@@ -2111,6 +2113,7 @@
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    display: none;
   }
 
   .mobile .bottom::before {
@@ -2124,6 +2127,7 @@
     border: 2px solid #999;
     cursor: pointer;
     border-radius: 6px;
+    display: none;
 
   }
 
@@ -2134,6 +2138,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none;
   }
 
   .btn_playstore2 {

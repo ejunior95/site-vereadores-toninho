@@ -807,6 +807,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: url('/img/bg_sectionmobile.jpg');
+    background-size: cover;
     height: 100vh;
   }
 
@@ -1579,9 +1581,9 @@
     right: -6px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
+    background: #0026AE;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   .timeline ul li:nth-child(even):before {
@@ -1591,9 +1593,9 @@
     left: -3.8px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
+    background: #0026AE;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   .timeline ul li h3 {
@@ -1621,10 +1623,10 @@
     right: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
+    background: #0026AE;
+    color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   .timeline ul li:nth-child(even) .time {
@@ -1633,10 +1635,10 @@
     left: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
+    background: #0026AE;
+    color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   /*CSS do TimeLine BIOGRAFIA*/
@@ -1887,19 +1889,20 @@
     height: 300px;
     background-color: #fff;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-bottom: 5vh;
+    margin-right: 5vh;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
   }
 
   .container_cardpropostas .cardpropostas .imgBx {
     position: absolute;
-    top: calc(50% - 100px);
-    width: 75px;
-    height: 75px;
-    left: -15px;
-    background-color: #718093;
+    top: calc(50% - 150px);
+    width: 100px;
+    height: 100px;
+    left: -30px;
+    background-color: #0026AE;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -1911,7 +1914,7 @@
 
 
   .container_cardpropostas .cardpropostas .imgBx img {
-    max-width: 45px;
+    width: 50px;
     filter: invert(1);
     transition: .5s ease-in-out;
   }
@@ -1929,12 +1932,11 @@
 
   .container_cardpropostas .cardpropostas .content_cardpropostas h3 {
     margin-bottom: 1px;
-    font-size: 20px;
+    font-size: 30px;
 
   }
 
   .container_cardpropostas .cardpropostas .content_cardpropostas p {
-    font-size: 70%;
     box-sizing: border-box;
   }
 
@@ -2041,6 +2043,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: url('/img/bg_sectionmobile.jpg');
+    background-size: cover;
     height: 100vh;
   }
 
@@ -2812,9 +2816,9 @@
     right: -6px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
+    background: #0026AE;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   .timeline ul li:nth-child(even):before {
@@ -2824,9 +2828,9 @@
     left: -3.8px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+  background: #0026AE;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   .timeline ul li h3 {
@@ -2854,10 +2858,10 @@
     right: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
+    background: #0026AE;
+    color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   .timeline ul li:nth-child(even) .time {
@@ -2866,10 +2870,10 @@
     left: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
-    border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+     background: #0026AE;
+     color: #fff;
+     border-radius: 6px;
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
   }
 
   /*CSS do TimeLine BIOGRAFIA*/
@@ -3093,83 +3097,84 @@
     margin: 2vh;
   }
 
+/*CSS das Propostas*/
 
-  /*CSS das Propostas*/
+.container_cardpropostas {
+  margin: 0;
+  /* padding-left: 5vh; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
 
-  .container_cardpropostas {
-    margin: 0;
-    /* padding-left: 5vh; */
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    position: relative;
-    width: 100%;
-  }
+.container_cardpropostas .cardpropostas {
+  position: relative;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  width: 40%;
+  margin-bottom: 5vh;
+  margin-right: 5vh;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
+}
 
-  .container_cardpropostas .cardpropostas {
-    position: relative;
-    height: 300px;
-    background-color: #fff;
-    display: flex;
-    width: 90%;
-    margin-bottom: 5vh;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
-  }
-
-  .container_cardpropostas .cardpropostas .imgBx {
-    position: absolute;
-    top: calc(50% - 100px);
-    width: 75px;
-    height: 75px;
-    left: -15px;
-    background-color: #718093;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: .5s ease-in-out;
-    border-radius: 8px;
-  }
-
-
-  .container_cardpropostas .cardpropostas .imgBx img {
-    max-width: 45px;
-    filter: invert(1);
-    transition: .5s ease-in-out;
-  }
+.container_cardpropostas .cardpropostas .imgBx {
+  position: absolute;
+  top: calc(50% - 150px);
+  width: 100px;
+  height: 100px;
+  left: -30px;
+  background-color: #0026AE;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  border-radius: 8px;
+}
 
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas {
-    position: absolute;
-    right: 0;
-    width: calc(100% - 75px);
-    /* height: 100%;
+.container_cardpropostas .cardpropostas .imgBx img {
+  width: 50px;
+  filter: invert(1);
+  transition: .5s ease-in-out;
+}
+
+
+.container_cardpropostas .cardpropostas .content_cardpropostas {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 75px);
+  /* height: 100%;
       padding: 20px; */
-    /* display: flex;
+  /* display: flex;
       flex-wrap: wrap; */
-  }
+}
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas h3 {
-    margin-bottom: 1px;
-    font-size: 20px;
+.container_cardpropostas .cardpropostas .content_cardpropostas h3 {
+  margin-bottom: 1px;
+  font-size: 15px;
 
-  }
+}
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas p {
-    font-size: 70%;
-    box-sizing: border-box;
-  }
+.container_cardpropostas .cardpropostas .content_cardpropostas p {
+  font-size: 80%;
+  box-sizing: border-box;
+}
 
-  .container_cardpropostas .cardpropostas .content_cardpropostas a {
-    text-decoration: none;
-  }
+.container_cardpropostas .cardpropostas .content_cardpropostas a {
+  text-decoration: none;
+}
 
-  /*CSS das Propostas*/
+/*CSS das Propostas*/
+
 
   .secsite_projetosl1,
   .secsite_projetosl2,
@@ -3268,6 +3273,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: url('/img/bg_sectionmobile.jpg');
+    background-size: cover;
     height: 100vh;
   }
 
@@ -4041,9 +4048,9 @@ background-size: cover;
      right: -6px;
      width: 10px;
      height: 10px;
-     background: #2F3640;
+       background: #0026AE;
      border-radius: 50%;
-     box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    .timeline ul li:nth-child(even):before {
@@ -4053,9 +4060,9 @@ background-size: cover;
      left: -3.8px;
      width: 10px;
      height: 10px;
-     background: #2F3640;
+       background: #0026AE;
      border-radius: 50%;
-     box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    .timeline ul li h3 {
@@ -4083,10 +4090,10 @@ background-size: cover;
      right: -165px;
      margin: 0;
      padding: 5px 30px;
-     background: #2F3640;
-     color: #dcdde1;
+     background: #0026AE;
+     color: #fff;
      border-radius: 6px;
-     box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    .timeline ul li:nth-child(even) .time {
@@ -4095,10 +4102,10 @@ background-size: cover;
      left: -165px;
      margin: 0;
      padding: 5px 30px;
-     background: #2F3640;
-     color: #dcdde1;
-     border-radius: 6px;
-     box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+      background: #0026AE;
+      color: #fff;
+      border-radius: 6px;
+      box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    /*CSS do TimeLine BIOGRAFIA*/
@@ -4343,19 +4350,20 @@ background-size: cover;
      height: 300px;
      background-color: #fff;
      display: flex;
-     width: 90%;
+     width: 40%;
      margin-bottom: 5vh;
+     margin-right: 5vh;
      border-radius: 8px;
      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
    }
 
    .container_cardpropostas .cardpropostas .imgBx {
      position: absolute;
-     top: calc(50% - 100px);
-     width: 75px;
-     height: 75px;
-     left: -15px;
-     background-color: #718093;
+     top: calc(50% - 150px);
+     width: 100px;
+     height: 100px;
+     left: -30px;
+     background-color: #0026AE;
      z-index: 1;
      display: flex;
      justify-content: center;
@@ -4367,7 +4375,7 @@ background-size: cover;
 
 
    .container_cardpropostas .cardpropostas .imgBx img {
-     max-width: 45px;
+     width: 50px;
      filter: invert(1);
      transition: .5s ease-in-out;
    }
@@ -4390,7 +4398,7 @@ background-size: cover;
    }
 
    .container_cardpropostas .cardpropostas .content_cardpropostas p {
-     font-size: 70%;
+     font-size: 90%;
      box-sizing: border-box;
    }
 
@@ -4497,6 +4505,8 @@ background-size: cover;
      display: flex;
      align-items: center;
      justify-content: space-around;
+     background: url('/img/bg_sectionmobile.jpg');
+     background-size: cover;
      height: 100vh;
    }
 
@@ -5264,9 +5274,9 @@ background-size: cover;
      right: -6px;
      width: 10px;
      height: 10px;
-     background: #2F3640;
-     border-radius: 50%;
-     box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+ background: #0026AE;
+ border-radius: 50%;
+ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    .timeline ul li:nth-child(even):before {
@@ -5276,9 +5286,9 @@ background-size: cover;
      left: -3.8px;
      width: 10px;
      height: 10px;
-     background: #2F3640;
+    background: #0026AE;
      border-radius: 50%;
-     box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    .timeline ul li h3 {
@@ -5306,10 +5316,10 @@ background-size: cover;
      right: -165px;
      margin: 0;
      padding: 5px 30px;
-     background: #2F3640;
-     color: #dcdde1;
+     background: #0026AE;
+     color: #fff;
      border-radius: 6px;
-     box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    .timeline ul li:nth-child(even) .time {
@@ -5318,10 +5328,10 @@ background-size: cover;
      left: -165px;
      margin: 0;
      padding: 5px 30px;
-     background: #2F3640;
-     color: #dcdde1;
-     border-radius: 6px;
-     box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+background: #0026AE;
+color: #fff;
+border-radius: 6px;
+box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    /*CSS do TimeLine BIOGRAFIA*/
@@ -5566,19 +5576,20 @@ background-size: cover;
      height: 300px;
      background-color: #fff;
      display: flex;
-     width: 90%;
+     width: 40%;
      margin-bottom: 5vh;
+     margin-right: 5vh;
      border-radius: 8px;
      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.555);
    }
 
    .container_cardpropostas .cardpropostas .imgBx {
      position: absolute;
-     top: calc(50% - 100px);
-     width: 75px;
-     height: 75px;
-     left: -15px;
-     background-color: #718093;
+     top: calc(50% - 150px);
+     width: 100px;
+     height: 100px;
+     left: -30px;
+     background-color: #0026AE;
      z-index: 1;
      display: flex;
      justify-content: center;
@@ -5590,7 +5601,7 @@ background-size: cover;
 
 
    .container_cardpropostas .cardpropostas .imgBx img {
-     max-width: 45px;
+     width: 50px;
      filter: invert(1);
      transition: .5s ease-in-out;
    }
@@ -5613,8 +5624,8 @@ background-size: cover;
    }
 
    .container_cardpropostas .cardpropostas .content_cardpropostas p {
-     font-size: 70%;
-     box-sizing: border-box;
+    font-size: 90%; 
+    box-sizing: border-box;
    }
 
    .container_cardpropostas .cardpropostas .content_cardpropostas a {
@@ -5722,6 +5733,8 @@ background-size: cover;
      display: flex;
      align-items: center;
      justify-content: space-around;
+     background: url('/img/bg_sectionmobile.jpg');
+     background-size: cover;
      height: 100vh;
    }
 
@@ -6007,7 +6020,7 @@ background-size: cover;
      background-color: rgba(60, 60, 60, 0.4);
      width: 100%;
      margin-top: 2vh;
-     border-radius: 8px;
+     border-radius: 50px;
      box-sizing: border-box;
    }
 
@@ -6405,8 +6418,10 @@ background-size: cover;
   .logomousescroll {
     width: 50px;
     height: 50px;
-    margin: 5vh 5vh 5vh 5vh;
     padding: 5vh;
+    left: 50%;
+    top: 85%;
+    position: absolute;
   }
 
   .textHeaderh5 {
@@ -6476,9 +6491,9 @@ background-size: cover;
     right: -6px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
+    background: #0026AE;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   .timeline ul li:nth-child(even):before {
@@ -6488,9 +6503,9 @@ background-size: cover;
     left: -3.8px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
+    background: #0026AE;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   .timeline ul li h3 {
@@ -6518,10 +6533,10 @@ background-size: cover;
     right: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
+    background: #0026AE;
+    color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   .timeline ul li:nth-child(even) .time {
@@ -6530,10 +6545,10 @@ background-size: cover;
     left: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
+    background: #0026AE;
+    color: #fff;
     border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   /*CSS do TimeLine BIOGRAFIA*/
@@ -6556,14 +6571,14 @@ background-size: cover;
   }
 
   .container_cardsnoticias_main .container_cardsnoticias .imgBx_cardnoticias {
-    width: 300px;
+    width: 350px;
     height: 100%;
     border-radius: 10px;
 
   }
 
   .container_cardsnoticias_main .container_cardsnoticias .imgBx_cardnoticias img {
-    width: 300px;
+    width: 350px;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
   }
@@ -6932,8 +6947,12 @@ background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: url('/img/bg_sectionmobile.jpg');
     height: 100vh;
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    }
 
   .mobile {
     position: relative;
@@ -7217,7 +7236,7 @@ background-size: cover;
     background-color: rgba(60, 60, 60, 0.4);
     width: 100%;
     margin-top: 2vh;
-    border-radius: 8px;
+    border-radius: 50px;
     box-sizing: border-box;
   }
 
@@ -7685,9 +7704,9 @@ background-size: cover;
     right: -6px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+  background: #0026AE;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   .timeline ul li:nth-child(even):before {
@@ -7697,9 +7716,9 @@ background-size: cover;
     left: -3.8px;
     width: 10px;
     height: 10px;
-    background: #2F3640;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(47, 54, 64, 0.2);
+   background: #0026AE;
+   border-radius: 50%;
+   box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   .timeline ul li h3 {
@@ -7727,10 +7746,10 @@ background-size: cover;
     right: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
-    border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    color: #fff;
+    background: #0026AE;
+    border-radius: 6%;
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   .timeline ul li:nth-child(even) .time {
@@ -7739,10 +7758,9 @@ background-size: cover;
     left: -165px;
     margin: 0;
     padding: 5px 30px;
-    background: #2F3640;
-    color: #dcdde1;
-    border-radius: 6px;
-    box-shadow: 0 0 0 3px rgba(54, 62, 114, 0.2);
+    background: #0026AE;
+    border-radius: 6%;
+    box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
   }
 
   /*CSS do TimeLine BIOGRAFIA*/
@@ -8141,7 +8159,11 @@ background-size: cover;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: url('/img/bg_sectionmobile.jpg');
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -350px;
   }
 
   .mobile {

@@ -694,22 +694,20 @@
 
             <div class="contatoformwrap">
         
-                <form>
-
-
+                <form action="https://formspree.io/moqlrojq" method="POST">
         
-                    <input class="textbox_formcontato" type="text" name="nome" placeholder="Digite seu nome completo aqui..." id="nome">
-                    <input class="textbox_formcontato" type="text" name="telefone" placeholder="Digite seu telefone aqui..." id="telefone">
-                    <input class="textbox_formcontato" type="text" name="email" placeholder="Digite seu email aqui..." id="email">
-                    <input class="textbox_formcontato" type="text" name="endereço" placeholder="Digite seu endereço aqui..." id="endereço">
-                    <input class="textbox_formcontato" type="text" name="bairro" placeholder="Digite seu bairro aqui..." id="bairro">
-                    <input class="textbox_formcontato" type="text" name="cidade" placeholder="Digite sua cidade aqui..." id="cidade">
+                    <input class="textbox_formcontato" type="text" name="Nome" placeholder="Digite seu nome completo aqui..." id="nome" required>
+                    <input class="textbox_formcontato" name="Telefone" placeholder="Ex.: (00) 00000-0000" 
+                     maxlength="15" autocomplete="off" id="telefone" type="tel" required>
+                    <input class="textbox_formcontato" type="email" name="Email" placeholder="Digite seu email aqui..." id="email" required>
+                    <input class="textbox_formcontato" type="text" name="Endereço" placeholder="Digite seu endereço aqui..." id="endereço">
+                    <input class="textbox_formcontato" type="text" name="Bairro" placeholder="Digite seu bairro aqui..." id="bairro">
+                    <input class="textbox_formcontato" type="text" name="Cidade" placeholder="Digite sua cidade aqui..." id="cidade">
                     
-                    <input class="assunto_formcontato" type="text" name="assunto" placeholder="Digite o assunto da mensagem aqui..." id="assunto">
-                    <textarea class="mensagem_formcontato" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." rows="8"></textarea>
+                    <input class="assunto_formcontato" type="text" name="Assunto" placeholder="Digite o assunto da mensagem aqui..." id="assunto" required>
+                    <textarea class="mensagem_formcontato" name="Mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..." rows="8" required></textarea>
 
-                    <button class="btn_enviarmsg">Enviar mensagem!</button>     
-                    
+                    <button type="submit" class="btn_enviarmsg" onclick="EnviarMensagem()" target="_blank">Enviar mensagem!</button>                         
                 
                 </form>
         

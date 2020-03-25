@@ -5437,10 +5437,10 @@ section.secsite_alt {
      left: -165px;
      margin: 0;
      padding: 5px 30px;
-background: #0026AE;
-color: #fff;
-border-radius: 6px;
-box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
+     background: #0026AE;
+     color: #fff;
+     border-radius: 6px;
+     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
    }
 
    /*CSS do TimeLine BIOGRAFIA*/
@@ -7547,7 +7547,7 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
     transition: .5s;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background: transparent;
     overflow: visible;
     z-index: 99;
@@ -7557,10 +7557,13 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
     float: left;
     background-color: transparent;
     margin-left: 3vh;
+    margin-top: 1vh;
+    transform: scale(0.8);
+    transition: .5s;
   }
 
   nav .logo_vereador:hover {
-    transform: scale(1.1);
+    transform: scale(1);
     transition: .5s;
   }
 
@@ -7603,20 +7606,23 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
     align-items: center;
     justify-content: center;
     background-color: transparent;
+    width: 100%;
   }
 
   nav ul li {
     list-style: none;
     background-color: transparent;
+    width: 100%;
   }
 
   nav ul li a {
     line-height: 8vh;
     color: gray;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 500;
-    padding: 5px 20px;
+    margin-left: 10%;
+    padding: 5px 20px 5px 20px;
     border-radius: 3px;
     transition: .5s;
     background-color: transparent;
@@ -7775,7 +7781,7 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
 
   .bgHeader .btn_playstore1 {
     position: absolute;
-    top: 80%;
+    top: 83%;
     right: 5%;
     object-fit: contain;
     height: 80px;
@@ -7801,6 +7807,9 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
     height: 50px;
     margin: 5vh 5vh 5vh 5vh;
     padding: 5vh;
+    left: 48%;
+    top: 82%;
+    position: absolute;
   }
 
   .textHeaderh5 {
@@ -7924,6 +7933,7 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
     left: -165px;
     margin: 0;
     padding: 5px 30px;
+    color: #fff;
     background: #0026AE;
     border-radius: 6%;
     box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.486);
@@ -8657,8 +8667,8 @@ box-shadow: 0 0 0 3px rgba(0, 38, 174, 0.479);
       width: 100%;
     }
 
-    .contatoformwrap form input:focus,
-    .contatoformwrap form textarea:focus {
+    .contatoformwrap form .textbox_formcontato:focus,
+    .contatoformwrap form .mensagem_formcontato:focus {
       border-bottom-width: 2px;
       border-color: #F9C044;
       outline: none;
